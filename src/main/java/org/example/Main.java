@@ -11,7 +11,7 @@ public class Main {
         Map<String, String> person = new HashMap<>();
 
         person.put("name:", "John");
-        person.put("LastName", "Smith");
+        person.put("LastName:", "Smith");
 
         Gson gson = new Gson();
         String json = gson.toJson(person);
